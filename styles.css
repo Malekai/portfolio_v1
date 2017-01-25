@@ -1,0 +1,199 @@
+#heading {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    width: 100%;
+}
+
+body {
+	font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.content {
+	text-align: center;
+	margin-top: 50%;
+}
+
+.about {
+	background: url("images/backgrounds/aboutbg.jpg");
+	background-size: cover;
+  text-align: center;
+	color: white;
+	margin-bottom: -50px;
+  padding-top: 10px;
+  padding-bottom: 150px;
+}
+
+.work {
+  background: #f1f1f1;
+  font-size: 17px;
+  padding-bottom: 50px;
+}
+
+.contact {
+  background-image: url("images/backgrounds/bg_blue.jpg");
+  background-size: cover;
+	color: white;
+  text-align: center;
+	padding-top: 60px;
+	padding-bottom: 80px;
+}
+
+.navbar {
+	background: rgba(0, 0, 0, 0);
+	border: none;
+	font-size: 12.5px;
+  font-weight: 300;
+  position: absolute;
+  letter-spacing: 1px;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+	color: white;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover {
+	background: rgba(0, 33, 73, 0.5);
+}
+
+
+.navbar-inverse .navbar-brand {
+	color: white;
+}
+
+form {
+	text-align: left;
+	margin-left: 175px;
+}
+
+input {
+	width: 400px;
+}
+
+textarea {
+	width: 500px;
+}
+
+#submit {
+	color: black;
+}
+
+#github {
+	width: 10%;
+}
+
+input, select, textarea {
+	color: black;
+}
+
+.row {
+	margin-left: 0;
+	margin-right: 0;
+}
+
+
+#logo {
+	width: 90px;
+	margin-top: -6px;
+
+}
+
+#skillLogos {
+	width: 65%;
+  margin-top: -1.8%;
+	padding-bottom: 25px;
+}
+
+a {
+	color: #79c8ff;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.aboutMe {
+  text-align: center;
+  width: 55%;
+	margin-top: 20px;
+  margin-left: 25%;
+}
+
+#aboutTitle {
+	margin-top: 30px;
+}
+
+
+footer {
+  background: #17191e;
+  color: gray;
+  font-size: 15px;
+  text-align: center;
+}
+
+.ghP {
+  width: 22.5%;
+  float: right;
+}
+
+#icon {
+  margin-left: 5%;
+}
+
+.thumbnail {
+  padding: 0px;
+  border-radius: 0px;
+}
+
+#codeWars {
+  width: 40%;
+}
+
+.span4 {
+  width: 100%;
+}
+
+.mini:hover {
+  opacity: .85;
+}
+
+.thumbnail.right-caption > a {
+    float: left;
+    margin-right: 25px;
+    width: 55%;
+}
+
+.thumbnail.right-caption > a:hover {
+  opacity: .85;
+}
+
+.thumbnail.right-caption {
+    float: left;
+}
+
+.thumbnail.right-caption > .caption {
+    margin-top: 3%;
+}
+
+.thumbnail.left-caption > a {
+    float: right;
+    margin-left: 25px;
+    width: 55%;
+}
+
+.thumbnail.left-caption > a:hover {
+  opacity: .85;
+}
+
+.thumbnail.left-caption {
+    float: right;
+}
+
+.thumbnail.left-caption > .caption {
+    margin-top: 3%;
+}
+
+#inTouch {
+  font-size: 17px;
+}
